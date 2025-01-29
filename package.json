@@ -1,0 +1,15 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://github.com/fgtucv/galeryHttps",
+  "scripts": {
+    "start": "parcel ./src/index.html --no-cache",
+    "build": "parcel build ./src/*.html --no-cache --public-url /event_booster-project/"
+  },
+  "dependencies": {
+    "izitoast": "^1.4.0",
+    "parcel": "^2.13.3",
+    "simplelightbox": "^2.14.3"
+  }
+}
