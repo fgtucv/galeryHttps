@@ -8,13 +8,12 @@
 }
 
 .main_form {
-    width: 470px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .main_input {
-    margin-bottom: 5px;
     padding-left: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -27,9 +26,14 @@
     display: block;
     font-size: 12px;
     font-weight: 400;
+    margin-top: 4px;
 }
 
 .main_button {
+    padding: 12px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: blueviolet 2px solid;
 }
 
 .main-list {
@@ -37,6 +41,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .main-lst_item {}
@@ -50,4 +55,14 @@
 .main-lst_small-img {
     width: 400px;
     height: 300px;
+}
+
+.showMore{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: blueviolet 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
 }
