@@ -5,7 +5,7 @@
   "homepage": "https://fgtucv.github.io/galeryHttps/",
   "scripts": {
     "start": "parcel ./src/index.html --no-cache",
-    "build": "parcel build ./src/*.html --no-cache --public-url /event_booster-project/",
+    "build": "parcel build ./src/*.html --no-cache --public-url /galeryHttps/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
