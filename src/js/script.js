@@ -1,7 +1,4 @@
-import iziToast from "izitoast";
-import SimpleLightbox from "simplelightbox";
-import "izitoast/dist/css/iziToast.min.css";
-import "simplelightbox/dist/simple-lightbox.min.css";
+
 
 const main = document.querySelector(".main");
 const mainTitle = document.querySelector(".main_title");
@@ -23,11 +20,7 @@ mainForm.addEventListener("submit", (event) => {
     });
 });
 
-function getImeges(keyWords) {
-    return fetch(`https://pixabay.com/api/?key=48523978-236760f943e457ffe618a45b5&q=${keyWords}&image_type=photo&safesearch=true&orientation=horizontal`).then((data) => {
-        return data.json();
-    });
-};
+
 
 function createMarkup(arr) {
     let html;

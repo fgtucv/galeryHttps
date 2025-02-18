@@ -28,4 +28,16 @@
   font-weight: 400;
   display: block;
 }
+
+.main-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.main-lst_small-img {
+  width: 400px;
+  height: 300px;
+}
 /*# sourceMappingURL=index.c92073ef.css.map */

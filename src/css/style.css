@@ -32,12 +32,22 @@
 .main_button {
 }
 
-.main-list {}
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
 .main-lst_item {}
 
-.main-lst_big-img {}
+.main-lst_big-img {
+    
+}
 
 .gallery {}
 
-.main-lst_small-img {}
+.main-lst_small-img {
+    width: 400px;
+    height: 300px;
+}
